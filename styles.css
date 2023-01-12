@@ -1,0 +1,19 @@
+body , div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    align-items: center;
+}
+
+.sqr {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    width: 14px;
+    height: 14px;;
+}

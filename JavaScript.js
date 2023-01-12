@@ -15,3 +15,11 @@ rows.forEach((row) => {
         row.appendChild(divSqr)
     }
 });
+
+const sqrs = Array.from(document.querySelectorAll('.sqr'));
+console.log(sqrs)
+sqrs.forEach((sqr) => {
+    sqr.addEventListener('mouseover', () => {
+        sqr.style.cssText = "background-color: grey;"
+    });
+});
